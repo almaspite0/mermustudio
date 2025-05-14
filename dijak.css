@@ -1,0 +1,35 @@
+.row{
+    align-items: center;
+    margin: 0 5rem 1rem 5rem;
+}
+
+
+@media (max-width: 992px){
+    .row{
+        margin: 0 1rem 1rem 1rem;    
+        flex-direction: column;
+    }
+}
+
+h1{
+    margin: 0.75rem 0.75rem 0.2rem 0.75rem;
+    text-align: right;
+}
+
+p{
+    margin: 0 0.75rem 0.75rem 0.75rem;
+    text-align: right;
+}
+
+.img-col img {
+    width: 50rem;
+    height: 20rem;
+    object-fit: cover;
+    margin: 0.5rem;
+}
+
+
+#endre{
+  color: rgb(120, 120, 120);
+}
+

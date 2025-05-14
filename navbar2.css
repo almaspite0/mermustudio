@@ -1,0 +1,35 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar, .navbar *{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.navbar{
+    height: 5rem;
+    background-color: transparent !important;
+}
+
+.menu{
+    border: none;
+    background-color: transparent;
+}
+
+.menu img{
+    height: 1.5rem;
+}
+
+button.btn-close:focus, button.btn-close:active{
+    box-shadow: none;
+}
+
+.offcanvas-header{
+    margin: 1rem;
+}
+
+.dropdown-menu .dropdown-item:active{
+    background-color: white;
+    color: black;
+}
