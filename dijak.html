@@ -9,45 +9,49 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="navbar2.css">
-    <link rel="stylesheet" href="dijak.css">
+    <link rel="stylesheet" href="print.css" media="print">
+
   </head>
   <body>
-    <nav class="navbar bg-body-tertiary">
-      <div class="container">
-        <a class="navbar-brand" href="index.html"><strong>MÉRMŰ STUDIO</strong></a>
-        <button class="menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-          <img src="Képek/black-menu.png" alt="">
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
-          <div class="offcanvas-header">
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item"><a class="nav-link" href="index.html">Kezdőlap</a></li>
-              <li class="nav-item"><a class="nav-link" href="arspoetica.html">Ars Poetica</a></li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Munkáink</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="balatonfured.html">Balatonfüred</a></li>
-                  <li><a class="dropdown-item" href="cs_schieszl.html">Csopak - Schieszl</a></li>
-                  <li><a class="dropdown-item" href="cs_cseresnyes.html">Csopak - Cseresnyés</a></li>
-                  <li><a class="dropdown-item" href="dorgicse.html">Dörgicse</a></li>
-                  <li><a class="dropdown-item" href="knp.html">KNP</a></li>
-                  <li><a class="dropdown-item" href="kispiac.html">Wekerle Kispiac</a></li>
-                  <li><a class="dropdown-item" href="bvtpl.html">Belvárosi Templom</a></li>
-                </ul>
-              </li>
-              <li class="nav-item"><a class="nav-link active" aria-current="page" href="dijak.html">Díjak</a></li>
-              <li class="nav-item"><a class="nav-link" href="szucs.html">Szűcs Endre Alapítvány</a></li>
-              <li class="nav-item"><a class="nav-link" href="kapcsolat.html">Kapcsolat</a></li>
-            </ul>
+     <a href="#maincontent" class="skip-link">Tartalomra ugrás</a>
+    <header>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><strong>MÉRMŰ STUDIO</strong></a>
+          <button class="menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <img src="Képek/black-menu.png" alt="">
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item"><a class="nav-link" href="index.html">Kezdőlap</a></li>
+                <li class="nav-item"><a class="nav-link" href="arspoetica.html">Ars Poetica</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Munkáink</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="balatonfured.html">Balatonfüred</a></li>
+                    <li><a class="dropdown-item" href="cs_schieszl.html">Csopak - Schieszl</a></li>
+                    <li><a class="dropdown-item" href="cs_cseresnyes.html">Csopak - Cseresnyés</a></li>
+                    <li><a class="dropdown-item" href="dorgicse.html">Dörgicse</a></li>
+                    <li><a class="dropdown-item" href="knp.html">KNP</a></li>
+                    <li><a class="dropdown-item" href="kispiac.html">Wekerle Kispiac</a></li>
+                    <li><a class="dropdown-item" href="bvtpl.html">Belvárosi Templom</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="dijak.html">Díjak</a></li>
+                <li class="nav-item"><a class="nav-link" href="szucs.html">Szűcs Endre Alapítvány</a></li>
+                <li class="nav-item"><a class="nav-link" href="kapcsolat.html">Kapcsolat</a></li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
-
-    <div class="container my-4">
+      </nav>
+    </header>
+    
+    <div id="maincontent" class="container my-4">
       <table class="table">
         <caption>
           <b>Díjazott munkáink</b>
@@ -65,24 +69,32 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="#bvtpl" class="text-decoration-underline">Budapest – Belvárosi Nagyboldogasszony Templom</a></td>
+            <td>Budapest – Belvárosi Nagyboldogasszony Templom</td>
             <td>2018</td>
-            <td>ÉVOSZ Építőipari Nívódíj (2022)</td>
+            <td><a href="https://evosz.hu/hirek/832-konferencia-%C3%A9p%C3%ADt%C5%91ipari-n%C3%ADv%C3%B3d%C3%ADjasok-2022">ÉVOSZ Építőipari Nívódíj (2022)</a></td>
           </tr>
           <tr>
-            <td><a href="#dobokuria" class="text-decoration-underline">Csopak – Dobó Kúria</a></td>
+            <td>Csopak – Dobó Kúria</td>
             <td>2016</td>
-            <td>Év Háza [Különdíj] (2019)</td>
+            <td><a href="https://sokszinuvidek.24.hu/viragzo-videkunk/2019/10/27/mermu-studio-csopaki-haz-csopak/">Év Háza [Különdíj] (2019)</a></td>
           </tr>
           <tr>
-            <td><a href="#schieszl" class="text-decoration-underline">Csopak – Schieszl Pince</a></td>
+            <td>Csopak – Schieszl Pince</td>
             <td>2015</td>
-            <td>Év Balaton Háza [Különdíj] (2018)<br>Creaton [Különdíj] (2021)</td>
+            <td>
+              <a href="https://epiteszforum.hu/atadtak-az-ev-balatoni-haza-epiteszeti-dijakat">Év Balaton Háza [Különdíj] (2018)</a><br>
+              Creaton [Különdíj] (2021)
+            </td>
           </tr>
           <tr>
-            <td><a href="#wekerle" class="text-decoration-underline">Budapest, Wekerletelep – Piac</a></td>
+            <td>Budapest, Wekerletelep – Piac</td>
             <td>2019</td>
-            <td>Creaton [Különdíj] (2019)<br>Év Háza [Különdíj] (2020)<br>Osskár Díj (2022)</td>
+            <td>
+              Creaton [Különdíj] (2019)
+              <br>
+              <a href="https://evhaza.hu/visszatekinto/korabbi-dijazottak">Év Háza [Különdíj] (2020)</a><br>
+              Osskár Díj (2022)
+            </td>
           </tr>
         </tbody>
       </table>
@@ -121,11 +133,23 @@
 
       <section class="mb-5" id="wekerle">
         <h3 class="fs-5 fw-semibold">Budapest, Wekerletelep – Piac</h3>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
-          <div class="col"><img src="Képek/Wekpiac/IMG_9713.jpg" class="img-fluid" alt=""></div>
-          <div class="col"><img src="Képek/Wekpiac/IMG_9660.jpg" class="img-fluid d-none d-md-block" alt=""></div>
-          <div class="col"><img src="Képek/Wekpiac/IMG_9675.jpg" class="img-fluid d-none d-md-block" alt=""></div>
-          <div class="col"><img src="Képek/Wekpiac/IMG_9683.jpg" class="img-fluid d-none d-md-block" alt=""></div>
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <video class="w-100" controls poster="Képek/Wekpiac/poster_wekpiac_video.png">
+              <source src="Képek/Wekpiac/kispiac.mp4" type="video/mp4">
+                          <p>
+                100 év elteltével a <strong>kispesti munkástelep építésének megkezdésére</strong> emlékezve, 2008-ban egész éves ünnepségsorozatot tartottak a helyiek és <strong>Kispest Önkormányzata</strong>. Ehhez kívántunk néhányan csatlakozni a <em>Kós Károly Egyesülés Építész Vándoriskolájából</em> is, ha már névadó építész példaképünk éppen ennek a telepnek a főterére kiírt pályázatot nyerte meg. A rajzolással egybekötött ünneplésre szavaztunk, így felkerestük <strong>Gyulai István főépítész urat</strong>. Így történt, hogy <strong>Kispest Önkormányzata</strong> és a <em>Kós Károly Egyesülés Vándoriskolája</em> meghívásos <strong>építészeti ötletpályázatot</strong> írt ki a <strong>wekerlei kispiac bódésorának megújítására</strong>. A pályázaton az akkori vándoriskolások java része indult és olyan érdekes végeredmény született, ahol győztesként két teljesen eltérő tervet hirdettek ki. A készítőiket pedig felkérték a későbbi közös továbbtervezésre és az együttműködésre az önkormányzattal.
+                <br><br>
+                A két tervet összedolgozni lehetetlenség lett volna, ezért megegyeztünk <strong>Füzes Andrással</strong>, hogy új tervet készítünk. 2013-ban született meg az első olyan pályamunkánk az <strong>Önkormányzat felkérésére</strong>, mely a megvalósulás reményével kecsegtetett, de ez a változat nem nyert a fővárosnál támogatást. 2018 hozta meg a fordulópontot, amikor az <strong>engedélyes tervek mellé</strong> végül a <strong>Kispesti Önkormányzat jelentős önerős forrást</strong> biztosított a fővárosi támogatás mellé, így átbillentünk a holtponton és a megvalósulási szakaszba fordult az épület sorsa.
+                <br><br>
+                Az évek során sok-sok piacot terveztünk ugyanarra az egy szem telekre, viszont egy „matematikai állandó” végig kísért minket minden tervezési programban: a meglévő, véletlenszerűen kialakult bódék alapterületéhez tizednégyzetméter pontossággal kellett alkalmazkodnunk az összes változatnál. Az új épület telepítését úgy kellett megoldanunk, hogy a teljes építési időszak alatt <strong>zavartalan legyen a piac működése</strong>, mert az árusok költöztetésére szánt keretre nem volt fedezet. Az eredmény a háromszög befogóiba szerkesztett új épülettömeg lett, mely az eddig hiányzó <em>fedett-nyitott, galériás őstermelői résszel</em>, egy <strong>közösségi klubteremmel</strong>, és a szükséges kiszolgálóterekkel kiegészülve fogadta magába az üzlethelyiségeket. A kivitelezés záró akkordjaként elbontott bódéváros végül udvariasan átadta a helyet a két épületszárny által körbeölelt <strong>zárható belső udvarnak</strong>, ahova a nagyobb vásárok tudnak kitelepülni.
+                </p>    A böngésződ nem támogatja a videólejátszást.
+              </video>
+            <details class="mt-2">
+              <summary>A videó leírásának megtekintése</summary>
+
+            </details>
+          </div>
         </div>
       </section>
     </main>
