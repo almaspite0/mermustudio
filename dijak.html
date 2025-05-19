@@ -7,160 +7,134 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="navbar2.css">
     <link rel="stylesheet" href="dijak.css">
-
-</head>
+    <style>
+      body {
+        overflow-x: hidden;
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+  </head>
   <body>
-   
-
-    <nav class="navbar bg-body-tertiary ">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><strong>MÉRMŰ STUDIO</strong></a>
-          <button class="menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <img src="Képek/black-menu.png" alt="">
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Kezdőlap</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="arspoetica.html">Ars Poetica</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Munkáink
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="balatonfured.html">Balatonfüred</a></li>
-                    <li><a class="dropdown-item" href="cs_schieszl.html">Csopak - Schieszl</a></li>
-                    <li><a class="dropdown-item" href="cs_cseresnyes.html">Csopak - Cseresnyés</a></li>
-                    <li><a class="dropdown-item" href="dorgicse.html">Dörgicse</a></li>                    
-                    <li><a class="dropdown-item" href="knp.html">KNP</a></li>                    
-                    <li><a class="dropdown-item" href="kispiac.html">Wekerle Kispiac</a></li>
-                    <li><a class="dropdown-item" href="bvtpl.html">Belvárosi Templom</a></li>                    
-                  </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="dijak.html">Díjak</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="szucs.html">Szűcs Endre Alapítvány</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="kapcsolat.html">Kapcsolat</a>
-                </li>
-              </ul>
-            </div>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><strong>MÉRMŰ STUDIO</strong></a>
+        <button class="menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <img src="Képek/black-menu.png" alt="">
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item"><a class="nav-link" href="index.html">Kezdőlap</a></li>
+              <li class="nav-item"><a class="nav-link" href="arspoetica.html">Ars Poetica</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Munkáink</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="balatonfured.html">Balatonfüred</a></li>
+                  <li><a class="dropdown-item" href="cs_schieszl.html">Csopak - Schieszl</a></li>
+                  <li><a class="dropdown-item" href="cs_cseresnyes.html">Csopak - Cseresnyés</a></li>
+                  <li><a class="dropdown-item" href="dorgicse.html">Dörgicse</a></li>
+                  <li><a class="dropdown-item" href="knp.html">KNP</a></li>
+                  <li><a class="dropdown-item" href="kispiac.html">Wekerle Kispiac</a></li>
+                  <li><a class="dropdown-item" href="bvtpl.html">Belvárosi Templom</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="dijak.html">Díjak</a></li>
+              <li class="nav-item"><a class="nav-link" href="szucs.html">Szűcs Endre Alapítvány</a></li>
+              <li class="nav-item"><a class="nav-link" href="kapcsolat.html">Kapcsolat</a></li>
+            </ul>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-      <div class="container-fluid">
-        <div class="r1 row">
-            <div class="txt col-12 col-lg-6">
-                <h1><strong>2024</strong></h1>
-                <p>Tisza-tó - Az Év szálléshelye</p>
-            </div>
-            <div class="img-col col-12 col-lg-6">
-                <img src="Képek/Tiszafüred/IMG_0619_photobyjurasszazs.jpg" alt="" class="img-fluid float-start">
-            </div>
-        </div> <!-- row -->
-        <div class="row">
-            <div class="img-col col-12 col-lg-6 order-2 order-lg-1">
-              <a href="Képek/szucsendre/ap3.png" target="_blank">
-                <img src="Képek/szucsendre/ap3.png" alt="" class="img-fluid">
-              </a>
-            </div>
-            <div class="col-12 col-lg-6 order-1 order-lg-2">
-                <p>"Elődeink, példaképeink, mint a zenében Bartók és Kodály, az építészetben Lechner Ödön, majd Kós Károly, Toroczkai Wigand Ede, Medgyaszay István és a többiek, mint Makovecz is, rájöttek, hogy csodálatos kincs birtokosai vagyunk. Ezt a kincset meg kell ismerni, meg kell menteni, és tovább kell adni. Ezt a nyelvet, melyen bennünket megszólítottak, magunkévá kell tennünk, ezen kell beszélnünk, dalolnunk, táncolnunk, szárnyalnunk, környezetet alakítanunk."</p>
-                <p id="endre">Szűcs Endre</p>
-            </div>
-        </div> <!-- row -->
-      </div> <!-- container-fluid -->
+    <div class="container my-4">
+      <table class="table">
+        <caption>
+          <b>Díjazott munkáink</b>
+          <details>
+            <summary>Súgó</summary>
+            <p>A táblázatban irodánk díjazott terveit tüntettük fel: a projekt nevét, tervezésének évét, illetve az elnyert elismeréseket.</p>
+          </details>
+        </caption>
+        <thead>
+          <tr>
+            <th>Projekt</th>
+            <th>Tervezés éve</th>
+            <th>Elismerések</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="#bvtpl" class="text-decoration-underline">Budapest – Belvárosi Nagyboldogasszony Templom</a></td>
+            <td>2018</td>
+            <td>ÉVOSZ Építőipari Nívódíj (2022)</td>
+          </tr>
+          <tr>
+            <td><a href="#dobokuria" class="text-decoration-underline">Csopak – Dobó Kúria</a></td>
+            <td>2016</td>
+            <td>Év Háza [Különdíj] (2019)</td>
+          </tr>
+          <tr>
+            <td><a href="#schieszl" class="text-decoration-underline">Csopak – Schieszl Pince</a></td>
+            <td>2015</td>
+            <td>Év Balaton Háza [Különdíj] (2018)<br>Creaton [Különdíj] (2021)</td>
+          </tr>
+          <tr>
+            <td><a href="#wekerle" class="text-decoration-underline">Budapest, Wekerletelep – Piac</a></td>
+            <td>2019</td>
+            <td>Creaton [Különdíj] (2019)<br>Év Háza [Különdíj] (2020)<br>Osskár Díj (2022)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
+    <main class="container my-5">
+      <section class="mb-5" id="bvtpl">
+        <h3 class="fs-5 fw-semibold">Budapest – Belvárosi Nagyboldogasszony Templom (2018)</h3>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+          <div class="col"><img src="Képek/BVTPL/IMG_4463.jpg" class="img-fluid" alt=""></div>
+          <div class="col"><img src="Képek/BVTPL/IMG_4386.jpg" class="img-fluid d-none d-md-block" alt=""></div>
+          <div class="col"><img src="Képek/BVTPL/IMG_4537.jpg" class="img-fluid d-none d-md-block" alt=""></div>
+          <div class="col"><img src="Képek/BVTPL/IMG_4480.jpg" class="img-fluid d-none d-md-block" alt=""></div>
+        </div>
+      </section>
 
-      <div class="container-fluid">
-        <div class="row m-3 align-items-center text-end">
-          <div class="col-6">
-              <h1><strong>2024</strong></h1>
-              <p>Tisza Tó - Az Év Szálláshelye</p>
-          </div>
-          <div class="col-6">
-              <img src="Képek/Tiszafüred/IMG_0619_photobyjurasszazs.jpg" alt="" class="img-fluid float-start">
-          </div>
-        </div> <!-- row -->
-        <div class="row m-3 align-items-center">
-          <div class="col-6">
-            <img src="Képek/Wekpiac/IMG_9675.jpg" alt="" class="img-fluid">
-          </div>
-          <div class="col-6">
-            <h1><strong>2022</strong></h1>
-            <p>Osskár Díj</p>
-          </div>
-        </div> <!-- row -->
-         <div class="row m-3 align-items-center text-end">
-          <div class="col-6">
-              <h1><strong>2024</strong></h1>
-              <p>Tisza Tó - Az Év Szálláshelye</p>
-          </div>
-          <div class="col-6">
-              <img src="Képek/Tiszafüred/IMG_0619_photobyjurasszazs.jpg" alt="" class="img-fluid float-start">
-          </div>
-        </div> <!-- row -->
-        <div class="row m-3 align-items-center">
-          <div class="col-6">
-            <img src="Képek/Wekpiac/IMG_9675.jpg" alt="" class="img-fluid">
-          </div>
-          <div class="col-6">
-            <h1><strong>2022</strong></h1>
-            <p>Osskár Díj</p>
-          </div>
-        </div> <!-- row -->
-         <div class="row m-3 align-items-center text-end">
-          <div class="col-6">
-              <h1><strong>2024</strong></h1>
-              <p>Tisza Tó - Az Év Szálláshelye</p>
-          </div>
-          <div class="col-6">
-              <img src="Képek/Tiszafüred/IMG_0619_photobyjurasszazs.jpg" alt="" class="img-fluid float-start">
-          </div>
-        </div> <!-- row -->
-        <div class="row m-3 align-items-center">
-          <div class="col-6">
-            <img src="Képek/Wekpiac/IMG_9675.jpg" alt="" class="img-fluid">
-          </div>
-          <div class="col-6">
-            <h1><strong>2022</strong></h1>
-            <p>Osskár Díj</p>
-          </div>
-        </div> <!-- row -->
-         <div class="row m-3 align-items-center text-end">
-          <div class="col-6">
-              <h1><strong>2024</strong></h1>
-              <p>Tisza Tó - Az Év Szálláshelye</p>
-          </div>
-          <div class="col-6">
-              <img src="Képek/Tiszafüred/IMG_0619_photobyjurasszazs.jpg" alt="" class="img-fluid float-start">
-          </div>
-        </div> <!-- row -->
-        <div class="row m-3 align-items-center">
-          <div class="col-6">
-            <img src="Képek/Wekpiac/IMG_9675.jpg" alt="" class="img-fluid">
-          </div>
-          <div class="col-6">
-            <h1><strong>2022</strong></h1>
-            <p>Osskár Díj</p>
-          </div>
-        </div> <!-- row -->
-      </div> <!-- container-fluid -->
+      <section class="mb-5" id="dobokuria">
+        <h3 class="fs-5 fw-semibold">Csopak – Dobó Kúria (2016)</h3>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+          <div class="col"><img src="Képek/Csopak - Cseresnyes/bg.jpg" class="img-fluid" alt=""></div>
+          <div class="col"><img src="Képek/Csopak - Cseresnyes/IMG_5935.jpg" class="img-fluid d-none d-md-block" alt=""></div>
+          <div class="col"><img src="Képek/Csopak - Cseresnyes/IMG_5924.jpg" class="img-fluid d-none d-md-block" alt=""></div>
+          <div class="col"><img src="Képek/Csopak - Cseresnyes/IMG_5925.jpg" class="img-fluid d-none d-md-block" alt=""></div>
+        </div>
+      </section>
 
+      <section class="mb-5" id="schieszl">
+        <h3 class="fs-5 fw-semibold">Csopak – Schieszl Pince (2015)</h3>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+          <div class="col"><img src="Képek/Csopak - Schieszl/schieszl_01.jpg" class="img-fluid" alt=""></div>
+          <div class="col"><img src="Képek/Csopak - Schieszl/schieszl_02.jpg" class="img-fluid d-none d-md-block" alt=""></div>
+          <div class="col"><img src="Képek/Csopak - Schieszl/schieszl_05.jpg" class="img-fluid d-none d-md-block" alt=""></div>
+          <div class="col"><img src="Képek/Csopak - Schieszl/schieszl_04.jpg" class="img-fluid d-none d-md-block" alt=""></div>
+        </div>
+      </section>
+
+      <section class="mb-5" id="wekerle">
+        <h3 class="fs-5 fw-semibold">Budapest, Wekerletelep – Piac</h3>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+          <div class="col"><img src="Képek/Wekpiac/IMG_9713.jpg" class="img-fluid" alt=""></div>
+          <div class="col"><img src="Képek/Wekpiac/IMG_9660.jpg" class="img-fluid d-none d-md-block" alt=""></div>
+          <div class="col"><img src="Képek/Wekpiac/IMG_9675.jpg" class="img-fluid d-none d-md-block" alt=""></div>
+          <div class="col"><img src="Képek/Wekpiac/IMG_9683.jpg" class="img-fluid d-none d-md-block" alt=""></div>
+        </div>
+      </section>
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
   </body>
